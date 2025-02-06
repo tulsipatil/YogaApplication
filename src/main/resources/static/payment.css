@@ -1,0 +1,80 @@
+/* Coffee-Themed Styling for Payment Form */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3E2723; /* Dark Coffee */
+    color: #EFEBE9; /* Light Coffee */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #6D4C41; /* Medium Coffee */
+    padding: 30px;
+    border-radius: 15px;
+    width: 50%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #FFF3E0; /* Light Cream */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.1em;
+    color: #FFF3E0;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #EFEBE9; /* Light Cream */
+    color: #3E2723; /* Dark Coffee */
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #6D4C41; /* Medium Coffee */
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #4E342E; /* Darker Coffee */
+    color: #FFF3E0; /* Light Cream */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #6D4C41; /* Medium Coffee */
+    transition: 0.3s ease;
+}
+
+.back-link {
+    text-align: center;
+    color: #FFF3E0; /* Light Cream */
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
