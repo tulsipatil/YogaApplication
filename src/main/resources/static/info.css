@@ -1,8 +1,8 @@
-/* Coffee-Themed Styling */
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #3E2723; /* Dark Coffee */
-    color: #EFEBE9; /* Light Coffee */
+    background-color: #3E2723;
+    color: #EFEBE9;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -13,17 +13,17 @@ body {
 }
 
 h1 {
-    background-color: #6D4C41; /* Medium Coffee */
-    color: #FFF3E0; /* Light Cream */
+    background-color: #6D4C41;
+    color: #FFF3E0;
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Add smooth transition */
+
 h1:hover {
-    background-color: #4E342E; /* Darker Coffee */
+    background-color: #4E342E;
     transition: 0.3s ease-in-out;
 }
 
